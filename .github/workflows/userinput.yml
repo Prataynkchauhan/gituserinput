@@ -35,4 +35,4 @@ jobs:
           python-version: 3.11
   
       - name: Execute Test Script
-        run: input_value=${{ github.event.inputs.Value1 }}${{ github.event.inputs.Value2 }} python3 simple/simple.py
+        run: input_value=${{ github.event.inputs.Value1 }}${{ github.event.inputs.Value2 }} python3 input/add.py
